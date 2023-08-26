@@ -1,7 +1,14 @@
 package application;
 
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Deal or no Deal?");
+
+        SuitcaseList suitcaseList = new SuitcaseList();
+
+        suitcaseList.fillList();
+
+        System.out.println(suitcaseList);
     }
 }
