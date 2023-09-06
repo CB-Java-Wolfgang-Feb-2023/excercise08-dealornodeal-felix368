@@ -26,6 +26,6 @@ public class Suitcase {
 
     @Override
     public String toString() {
-        return "value=" + value;
+        return "" + value;
     }
 }
